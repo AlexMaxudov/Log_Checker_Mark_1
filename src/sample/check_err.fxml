@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Check_Err_Window">
+   <children>
+      <ListView fx:id="err_list" layoutX="14.0" layoutY="32.0" prefHeight="181.0" prefWidth="612.0" />
+      <Button fx:id="view_check_err" layoutX="658.0" layoutY="32.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Просмотрел" textAlignment="CENTER" />
+      <Button fx:id="view_check_err_all" layoutX="658.0" layoutY="110.0" mnemonicParsing="false" text="Просмотрел все" textAlignment="CENTER" />
+      <Button fx:id="refresh_err" layoutX="658.0" layoutY="188.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="106.0" text="Обновить" textAlignment="CENTER" />
+      <Button fx:id="add_edit" layoutX="637.0" layoutY="336.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="162.0" text="Добавить/Редактировать" textAlignment="CENTER" />
+      <Button fx:id="all_err_file" layoutX="637.0" layoutY="379.0" mnemonicParsing="false" text="Получить общий лог файл" textAlignment="CENTER" />
+      <Button fx:id="err_file" layoutX="14.0" layoutY="379.0" mnemonicParsing="false" text="Получить лог файл с ошибкой" />
+      <TextArea fx:id="more_list" layoutX="14.0" layoutY="236.0" prefHeight="125.0" prefWidth="612.0" />
+   </children>
+</AnchorPane>
